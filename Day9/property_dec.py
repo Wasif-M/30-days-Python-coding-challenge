@@ -7,6 +7,6 @@ class Employee:
     def fullname(self):
         return f"{self.first_name} {self.last_name}"
     def email(self):
-        return f"{}.{}@gmail.com".format(self.first_name,self.last_name)
+        return "{}.{}@gmail.com".format(self.first_name,self.last_name)
     
 emp_1=  Employee("John","Doe",25,4500)
