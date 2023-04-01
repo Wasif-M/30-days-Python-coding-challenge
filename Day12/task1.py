@@ -14,7 +14,7 @@ class Flower:
         self._name = name
 
     def bloom(self):
-        print(f"The {self._name} flower with {self._color} color has {self._petals} petals and is in bloom.")
+        return f"The {self._name} flower with {self._color} color has {self._petals} petals and is in bloom"
 
     @classmethod
     def total_flowers(cls):
@@ -25,14 +25,14 @@ class Rose(Flower):
         super().__init__(name, color, petals)
 
     def fragrance(self):
-        print(f"The {self._name} rose has a fragrant smell.")
+        return f"The {self._name} rose has a fragrant smell"
 
 class Sunflower(Flower):
     def __init__(self, name, color, petals):
         super().__init__(name, color, petals)
 
     def follow_sun(self):
-        print(f"The {self._name} sunflower follows the sun.")
+        return f"The {self._name} sunflower follows the sun"
 
 rose = Rose("Rose", "Red", 6)
 sunflower = Sunflower("Sunflower", "Yellow", 32)
