@@ -42,5 +42,5 @@ sunflower.bloom()
 
 print(f"Total flowers: {Flower.total_flowers()}")
 
-rose.set_name("Crimson")
+rose.set_name("BABY FACE")
 print(rose.get_name()) 
